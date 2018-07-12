@@ -1,3 +1,7 @@
+一个高仿的小米APP。
+使用的技术有vue+vue-cli+vue-router+webpack
+
+
 # xinmu
 
 > A Vue.js project
