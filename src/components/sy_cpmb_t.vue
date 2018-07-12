@@ -1,6 +1,6 @@
 <template>
 <div class="sy_cpmb_t">
-	<router-link to="">
+	<router-link to="/detail">
 		<img v-bind:src="src" v-bind:alt="tit" />
 	</router-link>
 </div>
@@ -8,7 +8,7 @@
 
 <script>
 	export default{
-		props: ["src", "tit"]
+		props: ['src', 'tit']
 	}
 </script>
 

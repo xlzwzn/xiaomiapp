@@ -1,18 +1,18 @@
 <template>
 	<div class="sy_tj bordertb clear">
 		<div class="sy_tj_l">
-			<router-link to="/sjxp">
+			<router-link to="/">
 				<img src="../assets/img/sy_tj1.jpg" alt="手机推荐" />
 			</router-link>
 		</div>
 		<div class="sy_tj_c">
 			<div class="sy_tj_c_t">
-				<router-link to="/zncp">
+				<router-link to="/">
 					<img src="../assets/img/sy_tj2.jpg" alt="智能产品" />
 				</router-link>
 			</div>
 			<div class="sy_tj_c_b">
-				<router-link to="/dscp">
+				<router-link to="/">
 					<img src="../assets/img/sy_tj3.jpg" alt="电视产品" />
 				</router-link>
 			</div>

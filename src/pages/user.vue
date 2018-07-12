@@ -2,7 +2,7 @@
 	<div class="user">
 		<div class="header_user">
 			<dl>
-				<router-link to="/signin">
+				<router-link to="/entry">
 					<dt><img src="../assets/user/mrtx.png" /></dt>
 					<dd>登录/注册</dd>
 				</router-link>

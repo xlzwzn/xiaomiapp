@@ -1,6 +1,6 @@
 <template>
 	<li class="swiper-slide">
-		<router-link to="/article">
+		<router-link to="/detail">
 			<img v-bind:src="src" v-bind:alt="tit" />
 		</router-link>
 	</li>

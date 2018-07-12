@@ -1,6 +1,6 @@
 <template>
 	<dl>
-		<router-link to="/">
+		<router-link to="/detail">
 			<dt><img v-bind:src="src" v-bind:alt="name" /></dt>
 			<dd>
 				<div class="nameyj">

@@ -6,7 +6,7 @@
 
 <script>
 	export default{
-		props:["src", "name"]
+		props:['src', 'name']
 	}
 </script>
 

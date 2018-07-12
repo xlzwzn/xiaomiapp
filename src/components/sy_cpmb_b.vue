@@ -1,6 +1,6 @@
 <template>
 	<dl class="product">
-		<router-link to="/">
+		<router-link to="/detail">
 			<dt><img v-bind:src="src" v-bind:alt="name" /></dt>
 			<dd>
 				<p class="name">{{ name }}</p>
@@ -16,7 +16,7 @@
 
 <script>
 	export default{
-		props: ["src", "name", "brief", "present", "original"]
+		props: ['src', 'name', 'brief', 'present', 'original']
 	}
 </script>
 

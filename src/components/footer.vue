@@ -26,15 +26,43 @@
 				</router-link>
 			</li>
 		</ul>
+		
+		<div class="gotop" id="gotop" @click="gotop()"><img src="../assets/details/icon_top.png" /></div>
 	</footer>
 </template>
 
+
 <script>
-	
+export default {
+	mounted() {
+		window.addEventListener('scroll', this.scrollFunction)
+	},
+	methods: {
+		scrollFunction: function(){
+			if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+				document.getElementById('gotop').style.display = 'block'
+			}else{
+				document.getElementById('gotop').style.display = 'none'
+			}
+		},
+		gotop: function() {
+			document.body.scrollTop = 0
+			document.documentElement.scrollTop = 0
+		}
+	}
+}
+
+
+
+
+
+
+
 </script>
 
+
 <style>
-.footer{width: 100%; height: 1.1rem; background: #fff; box-shadow:0px 0px 10px #888888; box-sizing: border-box; padding-top: 0.15rem; position: fixed; bottom: 0; z-index: 999;}
+.footer{width: 100%; max-width: 640px; height: 1.1rem; background: #fff; box-shadow:0px 0px 10px #888888; box-sizing: border-box; padding-top: 0.15rem; position: fixed; bottom: 0; z-index: 999;}
 .footer ul{width: 100%; height: 1.1rem;}
 .footer ul li{width: 25%; height: 1.1rem; text-align: center; float: left;}
 .footer ul li img{width:25%; display: inline-block;}
@@ -43,4 +71,5 @@
 .footer2 ul li:nth-child(2) p{color:#f00;}
 .footer3 ul li:nth-child(3) p{color:#f00;}
 .footer4 ul li:last-child p{color:#f00;}
+.gotop{width: 0.8rem; height: 0.8rem; position: fixed; right: 5%; bottom: 10%; z-index: 9999; display: none;}
 </style>

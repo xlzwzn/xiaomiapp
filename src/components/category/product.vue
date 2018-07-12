@@ -1,6 +1,6 @@
 <template>
 	<li>
-		<router-link to="/">
+		<router-link to="/detail">
 			<img v-bind:src="src" v-bind:alt="name" />
 			<p>{{ name }}</p>
 		</router-link>
@@ -9,7 +9,7 @@
 
 <script>
 	export default{
-		props: ["src", "name"]
+		props: ['src', 'name']
 	}
 </script>
 

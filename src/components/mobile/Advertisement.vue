@@ -1,6 +1,6 @@
 <template>
-	<router-link to="/">
-		<img v-bind:src="src" v-bind:alt="name" />
+	<router-link to='/detail'>
+		<img v-bind:src='src' v-bind:alt='name' />
 	</router-link>
 </template>
 
