@@ -1,34 +1,22 @@
 一个高仿的小米APP。
+
+学习vue.js之后做的一个小项目，有很多不足，忘大家多指教。
+
 使用的技术有vue+vue-cli+vue-router+webpack
 
 
-# xinmu
+本地运行方式
 
-> A Vue.js project
+下载项目到本地
+git clone https://github.com/xlzwzn/xiaomiapp.git
 
-## Build Setup
+进入项目
+cd xiaomiapp
 
-``` bash
-# install dependencies
+安装依赖包
 npm install
 
-# serve with hot reload at localhost:8080
+运行项目
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+注： 默认地址是 http://localhost:8080/
