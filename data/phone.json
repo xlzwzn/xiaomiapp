@@ -239,29 +239,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/ea80f62f-f7d4-e055-4c60-ab60cf4eb9f3.webp",
 						"img_url_color": "#B3A2D6",
@@ -300,29 +278,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/fb85df14-31c6-3584-aeff-4fe61b992e5a.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/fb85df14-31c6-3584-aeff-4fe61b992e5a.webp",
 						"img_url_color": "#9DA8B6",
@@ -362,29 +318,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/111cd2ee-0e6a-b286-d713-30a7fce817a3.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/111cd2ee-0e6a-b286-d713-30a7fce817a3.webp",
 						"img_url_color": "#969899",
@@ -424,29 +358,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/a1207748-44f0-9cc1-d5e8-09c9104cc984.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/a1207748-44f0-9cc1-d5e8-09c9104cc984.webp",
 						"img_url_color": "#959DCF",
@@ -484,29 +396,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb2ebb6fadaf67dfe765ce5866daac62.jpg",
 						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb2ebb6fadaf67dfe765ce5866daac62.jpg",
 						"img_url_color": "#9E9FBB",
@@ -544,29 +434,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/093a6b10-06c8-0f6f-7a70-bdff26ba51b1.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/093a6b10-06c8-0f6f-7a70-bdff26ba51b1.webp",
 						"img_url_color": "#E9C7C8",
@@ -605,29 +473,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/3972e11c-f4f4-9ad3-6919-bbf99468d106.webp?w=516\u0026h=420",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/3972e11c-f4f4-9ad3-6919-bbf99468d106.webp?w=516\u0026h=420",
 						"img_url_color": "#9798A7",
