@@ -634,29 +634,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/4848e768-dd4e-a61b-0c80-e90f8d5e469e.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/4848e768-dd4e-a61b-0c80-e90f8d5e469e.webp",
 						"img_url_color": "#BEADC0",
@@ -894,29 +872,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//i8.mifile.cn/v1/a1/3972e11c-f4f4-9ad3-6919-bbf99468d106.webp",
 						"img_url_webp": "//i8.mifile.cn/v1/a1/3972e11c-f4f4-9ad3-6919-bbf99468d106.webp",
 						"img_url_color": "#9798A7",
@@ -956,29 +912,7 @@
 						"product_rebate": {},
 						"margin_left": 0,
 						"margin_right": 0
-					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "list_two_type13",
-				"body": {
-					"bg_color": "#e6e7fb",
-					"btn_txt_color": "#ffffff",
-					"btn_color": "#ea625b",
-					"height": "0",
-					"width": "0",
-					"items": [{
+					}, {
 						"img_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4252109ac87ae9dd1508efa43b78b7ff.jpg",
 						"img_url_webp": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4252109ac87ae9dd1508efa43b78b7ff.jpg",
 						"img_url_color": "#FFFFFF",
