@@ -1,0 +1,1192 @@
+{
+	"code": 0,
+	"data": {
+		"tabs": [{
+			"name": "推荐",
+			"page_type": "home",
+			"page_id": 0,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "手机",
+			"page_type": "activity",
+			"page_id": 8235,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "毕业季",
+			"page_type": "activity",
+			"page_id": 10304,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "智能",
+			"page_type": "activity",
+			"page_id": 10288,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "电视",
+			"page_type": "activity",
+			"page_id": 9829,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "笔记本",
+			"page_type": "activity",
+			"page_id": 9770,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "家电",
+			"page_type": "activity",
+			"page_id": 8556,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}, {
+			"name": "生活周边",
+			"page_type": "tab",
+			"page_id": 1861,
+			"is_default": false,
+			"word_selected_color": "#ed5b00",
+			"word_unselected_color": "#747474",
+			"bg_img": "",
+			"bg_img_webp": ""
+		}],
+		"data": {
+			"header": {},
+			"sections": [{
+				"view_type": "cells_auto_fill",
+				"block_id": "3471916",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 394,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 394,
+						"img_url": "//i8.mifile.cn/v1/a1/6e0f0be6-76fe-dabe-c7b9-f2a9b1e690e9.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/6e0f0be6-76fe-dabe-c7b9-f2a9b1e690e9.webp",
+						"img_url_color": "#B9D1D2",
+						"action": {
+							"type": "product",
+							"path": "9455",
+							"log_code": "3110304wapactivitycells_auto_fill001002#t=normal\u0026act=product\u0026page=activity\u0026pid=9455\u0026page_id=10304\u0026bid=3471916.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471917",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 286,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 286,
+						"img_url": "//i8.mifile.cn/v1/a1/3d3597ff-b829-329c-8f84-147ef15e0f1a.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/3d3597ff-b829-329c-8f84-147ef15e0f1a.webp",
+						"img_url_color": "#C7D8DE",
+						"action": {
+							"type": "product",
+							"path": "9455",
+							"log_code": "3110304wapactivitycells_auto_fill001009#t=normal\u0026act=product\u0026page=activity\u0026pid=9455\u0026page_id=10304\u0026bid=3471917.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471918",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 285,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 285,
+						"img_url": "//i8.mifile.cn/v1/a1/dae2b021-0cb6-5685-4f1d-cb050ad75ec4.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/dae2b021-0cb6-5685-4f1d-cb050ad75ec4.webp",
+						"img_url_color": "#C6D5D0",
+						"action": {
+							"type": "product",
+							"path": "9592",
+							"log_code": "3110304wapactivitycells_auto_fill001010#t=normal\u0026act=product\u0026page=activity\u0026pid=9592\u0026page_id=10304\u0026bid=3471918.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471919",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 283,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 283,
+						"img_url": "//i8.mifile.cn/v1/a1/3d3cb85b-d9ca-d367-1860-d9a1be14ac9d.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/3d3cb85b-d9ca-d367-1860-d9a1be14ac9d.webp",
+						"img_url_color": "#C8DADB",
+						"action": {
+							"type": "product",
+							"path": "10000134",
+							"log_code": "3110304wapactivitycells_auto_fill001011#t=normal\u0026act=product\u0026page=activity\u0026pid=10000134\u0026page_id=10304\u0026bid=3471919.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471920",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 285,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 285,
+						"img_url": "//i8.mifile.cn/v1/a1/3c8b982f-0466-e10a-f0a9-44f6b61790a6.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/3c8b982f-0466-e10a-f0a9-44f6b61790a6.webp",
+						"img_url_color": "#C1D5D4",
+						"action": {
+							"type": "product",
+							"path": "10000118",
+							"log_code": "3110304wapactivitycells_auto_fill001012#t=normal\u0026act=product\u0026page=activity\u0026pid=10000118\u0026page_id=10304\u0026bid=3471920.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471921",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 282,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 282,
+						"img_url": "//i8.mifile.cn/v1/a1/55868e44-6fba-adc8-ae27-41444a990cfd.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/55868e44-6fba-adc8-ae27-41444a990cfd.webp",
+						"img_url_color": "#BDCDCE",
+						"action": {
+							"type": "product",
+							"path": "10000151",
+							"log_code": "3110304wapactivitycells_auto_fill001013#t=normal\u0026act=product\u0026page=activity\u0026pid=10000151\u0026page_id=10304\u0026bid=3471921.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3471922",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 313,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 313,
+						"img_url": "//i8.mifile.cn/v1/a1/80d57fca-b902-d588-12f9-915fed66d81f.webp",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/80d57fca-b902-d588-12f9-915fed66d81f.webp",
+						"img_url_color": "#B1C6C1",
+						"action": {
+							"type": "product",
+							"path": "10000085",
+							"log_code": "3110304wapactivitycells_auto_fill001014#t=normal\u0026act=product\u0026page=activity\u0026pid=10000085\u0026page_id=10304\u0026bid=3471922.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3470554",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 166,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 166,
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7f4a3f9b8176b0911f0296463ca8de16.jpg",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7f4a3f9b8176b0911f0296463ca8de16.jpg",
+						"img_url_color": "#119D42",
+						"action": {
+							"type": "none",
+							"log_code": "3110304wapactivitycells_auto_fill001015#t=normal\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470554.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2bc1c7ff8c71628a28a5fce24caf245.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2bc1c7ff8c71628a28a5fce24caf245.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#FFFFFF",
+						"action": {
+							"type": "product",
+							"path": "10000117",
+							"log_code": "3110304wapactivitylist_two_type14001017#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471940.1\u0026pid=10000117"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000117",
+						"product_name": "小米8 青春版",
+						"product_brief": "索尼2400万自拍，潮流轻旗舰",
+						"product_price": "1049",
+						"product_org_price": "1699",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/5352c114a951a543a1774d7db9ef2ae5.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/084d9edc-32c2-d38f-fd3f-cbb12d5e52a8!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/084d9edc-32c2-d38f-fd3f-cbb12d5e52a8!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#9CA5D6",
+						"action": {
+							"type": "product",
+							"path": "10000157",
+							"log_code": "3110304wapactivitylist_two_type14002017#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471940.2\u0026pid=10000157"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000157",
+						"product_name": "小米Play",
+						"product_brief": "流光渐变色，5.84\"小水滴全面屏",
+						"product_price": "749",
+						"product_org_price": "999",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bc9b50c3d129d55f5af2dbd2a281cf00.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2d85ae8bbd50f81d0020fcecb4b2d34.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d2d85ae8bbd50f81d0020fcecb4b2d34.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#A2A3CA",
+						"action": {
+							"type": "product",
+							"path": "10000138",
+							"log_code": "3110304wapactivitylist_two_type14001020#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471941.1\u0026pid=10000138"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000138",
+						"product_name": "Redmi 7 ",
+						"product_brief": "4000mAh超长续航，骁龙632处理器",
+						"product_price": "699",
+						"product_org_price": "699",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f69a13896af2ad5c96e38e28fc97626c.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6e61f42e06a9e182cb85b17b70ceea86.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6e61f42e06a9e182cb85b17b70ceea86.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#8E9293",
+						"action": {
+							"type": "product",
+							"path": "10000139",
+							"log_code": "3110304wapactivitylist_two_type14002020#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471941.2\u0026pid=10000139"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000139",
+						"product_name": "黑鲨游戏手机 2",
+						"product_brief": "骁龙855，超畅快游戏体验",
+						"product_price": "2699",
+						"product_org_price": "3199",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/513b7d35ec4e21eae4f240173da52d74.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//i8.mifile.cn/v1/a1/72643ff2-ce4e-6da6-a094-4be81af09bdc!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/72643ff2-ce4e-6da6-a094-4be81af09bdc!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#8F9FB4",
+						"action": {
+							"type": "product",
+							"path": "10000135",
+							"log_code": "3110304wapactivitylist_two_type14001023#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471942.1\u0026pid=10000135"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000135",
+						"product_name": "小米9 SE",
+						"product_brief": "索尼4800万三摄，骁龙712",
+						"product_price": "1999",
+						"product_org_price": "1999",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fc92630d27b6941dae9ca5f74243f5e4.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/132fdc53d81041497ab85d712a9c3b22.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/132fdc53d81041497ab85d712a9c3b22.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#A8ACCE",
+						"action": {
+							"type": "product",
+							"path": "10000150",
+							"log_code": "3110304wapactivitylist_two_type14002023#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3471942.2\u0026pid=10000150"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000150",
+						"product_name": "Redmi K20",
+						"product_brief": "弹出全面屏，索尼4800万超广角三摄",
+						"product_price": "1999",
+						"product_org_price": "1999",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/69aae0cd5f2efe0d2877c5c6ee917d02.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/739c1321d2a05d48c0b8b86cd459c4d4.jpg?f=webp\u0026w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/739c1321d2a05d48c0b8b86cd459c4d4.jpg?f=webp\u0026w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#FFFFFF",
+						"action": {
+							"type": "product",
+							"path": "9107",
+							"log_code": "3110304wapactivitylist_two_type14001025#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470561.1\u0026pid=9107"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9107",
+						"product_name": "米家照片打印机",
+						"product_brief": "手机即拍即印",
+						"product_price": "479",
+						"product_org_price": "499",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e8c70f7b829e14baa6e6d3b495cabb24.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e8c70f7b829e14baa6e6d3b495cabb24.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#C0B6B0",
+						"action": {
+							"type": "product",
+							"path": "5051",
+							"log_code": "3110304wapactivitylist_two_type14002025#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470561.2\u0026pid=5051"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "5051",
+						"product_name": "小米支架式自拍杆",
+						"product_brief": "360°可旋转手机支架，蓝牙自由遥控",
+						"product_price": "89",
+						"product_org_price": "89",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3470564",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 167,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 167,
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/38f3c9b970c3826dc13ab689c35cfeac.jpg",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/38f3c9b970c3826dc13ab689c35cfeac.jpg",
+						"img_url_color": "#DBE7D8",
+						"action": {
+							"type": "none",
+							"log_code": "3110304wapactivitycells_auto_fill001028#t=normal\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470564.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//i8.mifile.cn/v1/a1/5ca48230-4b5e-6b03-8db7-2be9191dfe71!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/5ca48230-4b5e-6b03-8db7-2be9191dfe71!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#968FCE",
+						"action": {
+							"type": "product",
+							"path": "10000153",
+							"log_code": "3110304wapactivitylist_two_type14001029#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470565.1\u0026pid=10000153"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000153",
+						"product_name": "RedmiBook 14",
+						"product_brief": "增强版酷睿™处理器 独立显卡 轻薄便携长续航",
+						"product_price": "3999",
+						"product_org_price": "3999",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/835f93ff-2b4e-89ae-64ee-230656e2fc87!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/835f93ff-2b4e-89ae-64ee-230656e2fc87!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#878793",
+						"action": {
+							"type": "product",
+							"path": "10000142",
+							"log_code": "3110304wapactivitylist_two_type14002029#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470565.2\u0026pid=10000142"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000142",
+						"product_name": "Air 13.3\" 2019款",
+						"product_brief": "独立显卡 指纹解锁",
+						"product_price": "4699",
+						"product_org_price": "4999",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//i8.mifile.cn/v1/a1/3e9c8e72-8d07-e0e9-1ef5-66d7a08b17f4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/3e9c8e72-8d07-e0e9-1ef5-66d7a08b17f4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#978079",
+						"action": {
+							"type": "product",
+							"path": "10000141",
+							"log_code": "3110304wapactivitylist_two_type14001031#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470567.1\u0026pid=10000141"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000141",
+						"product_name": "笔记本15.6\"  独显版",
+						"product_brief": "全面均衡的国民轻薄本",
+						"product_price": "3999",
+						"product_org_price": "3999",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/b186443c-f56b-4c72-030a-b56e43466ab1!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/b186443c-f56b-4c72-030a-b56e43466ab1!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#A4A6AF",
+						"action": {
+							"type": "product",
+							"path": "10000144",
+							"log_code": "3110304wapactivitylist_two_type14002031#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470567.2\u0026pid=10000144"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000144",
+						"product_name": "Pro 15.6\" 2019款",
+						"product_brief": "MX250独立显卡 全金属强化机身",
+						"product_price": "5399",
+						"product_org_price": "5599",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d3480d56fd89dc2f80e2ec1653e718d1.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d3480d56fd89dc2f80e2ec1653e718d1.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#FFFFFF",
+						"action": {
+							"type": "product",
+							"path": "10000145",
+							"log_code": "3110304wapactivitylist_two_type14001033#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470569.1\u0026pid=10000145"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000145",
+						"product_name": "Air 12.5\" 2019款",
+						"product_brief": "全金属机身，极简设计，像杂志般便携",
+						"product_price": "3499",
+						"product_org_price": "3599",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/3e9c8e72-8d07-e0e9-1ef5-66d7a08b17f4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/3e9c8e72-8d07-e0e9-1ef5-66d7a08b17f4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#978079",
+						"action": {
+							"type": "product",
+							"path": "10000140",
+							"log_code": "3110304wapactivitylist_two_type14002033#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470569.2\u0026pid=10000140"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000140",
+						"product_name": "笔记本15.6\" 集显版",
+						"product_brief": "全面均衡的国民轻薄本",
+						"product_price": "2999",
+						"product_org_price": "3399",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3470577",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 165,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 165,
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97914d61286ce8393ae52c280e8ec8a.jpg",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c97914d61286ce8393ae52c280e8ec8a.jpg",
+						"img_url_color": "#DCE7D8",
+						"action": {
+							"type": "none",
+							"log_code": "3110304wapactivitycells_auto_fill001041#t=normal\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470577.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/af863d71aad16b8f1815dfa6bf029cc6.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/af863d71aad16b8f1815dfa6bf029cc6.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#DEC2BA",
+						"action": {
+							"type": "product",
+							"path": "8606",
+							"log_code": "3110304wapactivitylist_two_type14001042#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470578.1\u0026pid=8606"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "8606",
+						"product_name": "儿童电话手表3｜4G版",
+						"product_brief": "新增移动支付功能 IPX7 级防水",
+						"product_price": "499",
+						"product_org_price": "599",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a39e6c2241bd655c44eb87273ec64916.png?w=167\u0026h=167"],
+						"product_rebate": {
+							"1": "约返9.98元",
+							"2": "约返9.98元",
+							"3": "约返9.98元",
+							"4": "约返9.98元",
+							"5": "约返9.98元"
+						},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/7dce30f0-5a79-a85e-9b2a-c0115928941e!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/7dce30f0-5a79-a85e-9b2a-c0115928941e!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#87BAB7",
+						"action": {
+							"type": "product",
+							"path": "6007",
+							"log_code": "3110304wapactivitylist_two_type14002042#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470578.2\u0026pid=6007"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "6007",
+						"product_name": "米兔儿童电话手表2 ",
+						"product_brief": "给孩子探索大世界的小礼物",
+						"product_price": "299",
+						"product_org_price": "399",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a39e6c2241bd655c44eb87273ec64916.png?w=167\u0026h=167"],
+						"product_rebate": {
+							"1": "约返7.48元",
+							"2": "约返7.48元",
+							"3": "约返7.48元",
+							"4": "约返7.48元",
+							"5": "约返7.48元"
+						},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ce9393c2085b1f6c088abe3d01983510.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ce9393c2085b1f6c088abe3d01983510.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#B6C6CF",
+						"action": {
+							"type": "product",
+							"path": "9834",
+							"log_code": "3110304wapactivitylist_two_type14001044#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470580.1\u0026pid=9834"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9834",
+						"product_name": "米兔点读笔",
+						"product_brief": "一点即读，让美好发声",
+						"product_price": "199",
+						"product_org_price": "199",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/c6f803aa-cae1-d4b7-b12f-efd5d9363e9b!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/c6f803aa-cae1-d4b7-b12f-efd5d9363e9b!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#A7C5D6",
+						"action": {
+							"type": "product",
+							"path": "8107",
+							"log_code": "3110304wapactivitylist_two_type14002044#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470580.2\u0026pid=8107"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "8107",
+						"product_name": "米兔儿童滑板车",
+						"product_brief": "安全好玩的酷玩具，锻炼孩子平衡力",
+						"product_price": "229",
+						"product_org_price": "249",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#e3ecdd",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a47fd2f59062c7ca936991e57be51eb7.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a47fd2f59062c7ca936991e57be51eb7.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#CACACE",
+						"action": {
+							"type": "product",
+							"path": "9805",
+							"log_code": "3110304wapactivitylist_two_type14001046#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470582.1\u0026pid=9805"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9805",
+						"product_name": "积木 沙漠赛车",
+						"product_brief": "炫酷的贴身玩伴，更高挑战，更多乐趣",
+						"product_price": "129",
+						"product_org_price": "129",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ae6da8c695c4472efa597bb447e96831.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ae6da8c695c4472efa597bb447e96831.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#C1C1C4",
+						"action": {
+							"type": "product",
+							"path": "9929",
+							"log_code": "3110304wapactivitylist_two_type14002046#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470582.2\u0026pid=9929"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9929",
+						"product_name": "智能积木 越野四驱车",
+						"product_brief": "图形化编程，让越野车做出更多智能表现",
+						"product_price": "699",
+						"product_org_price": "699",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#e3ecdd",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "cells_auto_fill",
+				"block_id": "3470584",
+				"body": {
+					"bg_color": "#ffffff",
+					"w": 720,
+					"h": 170,
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"w": 720,
+						"h": 170,
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c4ea231069dc0b2b8deea794e0cd3937.jpg",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c4ea231069dc0b2b8deea794e0cd3937.jpg",
+						"img_url_color": "#0D9B3F",
+						"action": {
+							"type": "none",
+							"log_code": "3110304wapactivitycells_auto_fill001048#t=normal\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470584.1"
+						},
+						"path_type": "image",
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"recommend_flag": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c218f4f5473e7b9b9068f51d0d57b2f.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c218f4f5473e7b9b9068f51d0d57b2f.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#9A9BAA",
+						"action": {
+							"type": "product",
+							"path": "10000123",
+							"log_code": "3110304wapactivitylist_two_type14001049#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470585.1\u0026pid=10000123"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "10000123",
+						"product_name": "小米MIX 3",
+						"product_brief": "8GB+128GB限时优惠1000元，享6期免息",
+						"product_price": "3599",
+						"product_org_price": "3599",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/503e3325392e48314c2613486559a6ee.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/503e3325392e48314c2613486559a6ee.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#A77F8B",
+						"action": {
+							"type": "product",
+							"path": "10000151",
+							"log_code": "3110304wapactivitylist_two_type14002049#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470585.2\u0026pid=10000151"
+						},
+						"btn_txt": "立即购买",
+						"show_price_qi": true,
+						"product_id": "10000151",
+						"product_name": "Redmi K20 Pro ",
+						"product_brief": "骁龙855处理器, 弹出式极界全面屏",
+						"product_price": "2499",
+						"product_org_price": "2499",
+						"product_tag_array": ["//cdn.cnbj1.fds.api.mi-img.com/mi-mall/68f2da6a2eac4c71c8827fa1cea4f2e5.png?w=167\u0026h=167"],
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//i8.mifile.cn/v1/a1/5cbe6a61-b341-4a8d-8ac1-75faf6cb9f78!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/5cbe6a61-b341-4a8d-8ac1-75faf6cb9f78!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#ADC3CA",
+						"action": {
+							"type": "product",
+							"path": "9681",
+							"log_code": "3110304wapactivitylist_two_type14001051#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470587.1\u0026pid=9681"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9681",
+						"product_name": "小米全面屏电视E32A",
+						"product_brief": "全面屏设计，人工智能语音，内置小爱同学",
+						"product_price": "999",
+						"product_org_price": "1099",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d3480d56fd89dc2f80e2ec1653e718d1.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d3480d56fd89dc2f80e2ec1653e718d1.jpg?w=505\u0026h=505\u0026thumb=1",
+						"img_url_color": "#FFFFFF",
+						"action": {
+							"type": "product",
+							"path": "9818",
+							"log_code": "3110304wapactivitylist_two_type14002051#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470587.2\u0026pid=9818"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9818",
+						"product_name": "RedmiBook 14 ",
+						"product_brief": "增强版酷睿™处理器 独立显卡 轻薄便携长续航",
+						"product_price": "4999",
+						"product_org_price": "4999",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "list_two_type14",
+				"body": {
+					"bg_color": "#0d953a",
+					"btn_txt_color": "#ffffff",
+					"btn_color": "#f54b4b",
+					"height": "0",
+					"width": "0",
+					"items": [{
+						"img_url": "//i8.mifile.cn/v1/a1/29095a67-a4aa-c385-78bf-35c51a78b45d!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/29095a67-a4aa-c385-78bf-35c51a78b45d!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#BEADA3",
+						"action": {
+							"type": "product",
+							"path": "9997",
+							"log_code": "3110304wapactivitylist_two_type14001053#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470589.1\u0026pid=9997"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9997",
+						"product_name": "小米手环4",
+						"product_brief": "大屏彩显，20天超长续航，腕上支付",
+						"product_price": "169",
+						"product_org_price": "169",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}, {
+						"img_url": "//i8.mifile.cn/v1/a1/b30a7db9-300b-92a6-4b49-cd07aa34c4a4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_webp": "//i8.mifile.cn/v1/a1/b30a7db9-300b-92a6-4b49-cd07aa34c4a4!505x505.webp?w=1080\u0026h=1080",
+						"img_url_color": "#A7B1C1",
+						"action": {
+							"type": "product",
+							"path": "9334",
+							"log_code": "3110304wapactivitylist_two_type14002053#t=product\u0026act=other\u0026page=activity\u0026page_id=10304\u0026bid=3470589.2\u0026pid=9334"
+						},
+						"btn_txt": "立即购买",
+						"product_id": "9334",
+						"product_name": "小米小爱触屏音箱",
+						"product_brief": "好听，更好看",
+						"product_price": "299",
+						"product_org_price": "299",
+						"product_rebate": {},
+						"margin_left": 0,
+						"margin_right": 0
+					}],
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}, {
+				"view_type": "divider_line",
+				"body": {
+					"line_color": "#0d953a",
+					"line_height": "24",
+					"height": "0",
+					"width": "0",
+					"margin_left": 0,
+					"margin_right": 0
+				}
+			}],
+			"seo": {
+				"title": "青春纪念册",
+				"keywords": "青春纪念册",
+				"description": "青春纪念册"
+			}
+		},
+		"default_type": "activity",
+		"default_id": 10304
+	},
+	"result": "ok"
+}
