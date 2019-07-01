@@ -121,7 +121,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}, [{
 				"view_type": "cells_auto_fill",
 				"block_id": "3413525",
 				"group_id": "1",
@@ -178,16 +178,6 @@
 						"margin_left": 0,
 						"margin_right": 0
 					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
 					"margin_left": 0,
 					"margin_right": 0
 				}
@@ -516,7 +506,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}], {
 				"view_type": "cells_auto_fill",
 				"block_id": "3413445",
 				"group_id": "2",
