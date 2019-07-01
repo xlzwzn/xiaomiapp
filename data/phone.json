@@ -506,7 +506,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}], {
+			}], [{
 				"view_type": "cells_auto_fill",
 				"block_id": "3413445",
 				"group_id": "2",
@@ -563,16 +563,6 @@
 						"margin_left": 0,
 						"margin_right": 0
 					}],
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
 					"margin_left": 0,
 					"margin_right": 0
 				}
@@ -668,7 +658,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}], [{
 				"view_type": "cells_auto_fill",
 				"block_id": "3415376",
 				"group_id": "3",
@@ -729,16 +719,6 @@
 					"margin_right": 0
 				}
 			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
 				"view_type": "list_two_type13",
 				"body": {
 					"bg_color": "#e6e7fb",
@@ -788,7 +768,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}], [{
 				"view_type": "cells_auto_fill",
 				"block_id": "3415378",
 				"group_id": "4",
@@ -816,6 +796,8 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
+			}, {
+				
 			}, {
 				"view_type": "list_two_type13",
 				"body": {
@@ -942,7 +924,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}], [{
 				"view_type": "cells_auto_fill",
 				"block_id": "3413451",
 				"group_id": "5",
@@ -1002,16 +984,6 @@
 					"margin_right": 0
 				}
 			}, {
-				"view_type": "divider_line",
-				"body": {
-					"line_color": "#e6e7fb",
-					"line_height": "16",
-					"height": "0",
-					"width": "0",
-					"margin_left": 0,
-					"margin_right": 0
-				}
-			}, {
 				"view_type": "list_two_type13",
 				"body": {
 					"bg_color": "#e6e7fb",
@@ -1062,7 +1034,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}],
+			}]],
 			"special_navigation_txt": {
 				"view_type": "special_navigation_txt",
 				"block_id": "3413427",
