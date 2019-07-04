@@ -95,7 +95,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
+			}, [{
 				"view_type": "cells_auto_fill",
 				"is_show": "Y",
 				"body": {
@@ -191,7 +191,8 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, [{
+			}], [
+			], [[{
 				"view_type": "cells_auto_fill",
 				"block_id": "3454115",
 				"group_id": "baokuan",
@@ -1721,7 +1722,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}], {
+			}]], {
 				"view_type": "divider_line",
 				"body": {
 					"line_color": "#ed612c",
