@@ -121,7 +121,11 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, [{
+			}, [
+			
+			], [
+			
+			],[[{
 				"view_type": "cells_auto_fill",
 				"block_id": "3413525",
 				"group_id": "1",
@@ -1034,7 +1038,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}]],
+			}]]],
 			"special_navigation_txt": {
 				"view_type": "special_navigation_txt",
 				"block_id": "3413427",
