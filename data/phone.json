@@ -800,9 +800,7 @@
 					"margin_left": 0,
 					"margin_right": 0
 				}
-			}, {
-				
-			}, {
+			}, {}, {
 				"view_type": "list_two_type13",
 				"body": {
 					"bg_color": "#e6e7fb",
