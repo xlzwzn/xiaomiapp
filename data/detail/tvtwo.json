@@ -57,7 +57,7 @@
         "prop_value_id": 216
       }],
       "name": "尺寸",
-      "prop_cfg_id": 6
+      "prop_cfg_id": 1
     }],
     "default_goods_id": "2192500009",
     "goods_info": [{
@@ -216,7 +216,7 @@
       "is_sale": true,
       "is_stock": true,
       "market_price": "1399",
-      "name": "小米全面屏电视E40A 灰色 40英寸",
+      "name": "小米全面屏电视E40A",
       "next_action_button": null,
       "page_id": 10344,
       "price": "1399",
