@@ -29,7 +29,7 @@
         "prop_value_id": 5
       }],
       "name": "颜色",
-      "prop_cfg_id": "color"
+      "prop_cfg_id": 2
     }, {
       "list": [{
         "icon_color": "",
@@ -57,7 +57,7 @@
         "prop_value_id": 274
       }],
       "name": "尺寸",
-      "prop_cfg_id": "size"
+      "prop_cfg_id": 1
     }],
     "default_goods_id": "2192500010",
     "goods_info": [{
