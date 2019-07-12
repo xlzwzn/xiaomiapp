@@ -1,0 +1,624 @@
+{
+  "code": 0,
+  "data": {
+    "batch_buy_option": [],
+    "buy_option": [{
+      "list": [{
+        "icon_color": "",
+        "icon_img": "",
+        "is_stock": true,
+        "name": "透明",
+        "price": "",
+        "prop_desc": "",
+        "prop_value_id": 71
+      }, {
+        "icon_color": "",
+        "icon_img": "",
+        "is_stock": true,
+        "name": "红色",
+        "price": "",
+        "prop_desc": "",
+        "prop_value_id": 71
+      }, {
+        "icon_color": "",
+        "icon_img": "",
+        "is_stock": true,
+        "name": "黑色",
+        "price": "",
+        "prop_desc": "",
+        "prop_value_id": 71
+      }],
+      "name": "颜色",
+      "prop_cfg_id": 2
+    }, {
+      "list": [{
+        "icon_color": "",
+        "icon_img": "",
+        "is_stock": false,
+        "name": "通用",
+        "price": "19",
+        "prop_desc": "",
+        "prop_value_id": 49
+      }, {
+        "icon_color": "",
+        "icon_img": "",
+        "is_stock": false,
+        "name": "不通用",
+        "price": "9",
+        "prop_desc": "",
+        "prop_value_id": 49
+      }],
+      "name": "通用",
+      "prop_cfg_id": 1
+    }],
+    "default_goods_id": "2192600034",
+    "goods_info": [{
+      "action_button": {
+        "bigtap_source": "bigtap",
+        "button_title": "加入购物车",
+        "is_bigtap": false,
+        "mode_change_time": 0,
+        "mode_end_time": 0,
+        "mode_start_time": 1562637480,
+        "occ_timeout": 5000,
+        "sale_mode": "standard",
+        "standard": [],
+        "use_occ": false
+      },
+      "address_type": "common",
+      "buy_limit": 2,
+      "class_parameters": {
+        "name": "关键参数"
+      },
+      "commodity_id": 1192600035,
+      "discount_price": "",
+      "gallery_v3": [{
+        "img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3be2ad31287234125e6874c045d85a8.jpg",
+        "img_url_webp": "http://i8.mifile.cn/v1/a1/51de8206-ffaa-00ed-e52e-9b312f643c7f.webp",
+        "type": "img"
+      }],
+      "goods_id": 2192600034,
+      "image_share": "http://i8.mifile.cn/a1/pms_1562076364.18374657!144x1440.jpg",
+      "img_url": "//i8.mifile.cn/a1/pms_1562076364.18374657.jpg",
+      "is_sale": true,
+      "is_stock": true,
+      "market_price": "19",
+      "name": "小米CC9e 标准高透贴膜 透明",
+      "next_action_button": null,
+      "page_id": 10440,
+      "price": "19",
+      "product_desc": "",
+      "product_gallery_icon": {},
+      "prop_list": [{
+        "prop_cfg_id": 2,
+        "prop_value_id": 71
+      }, {
+        "prop_cfg_id": 1,
+        "prop_value_id": 49
+      }],
+      "reduce_price": "",
+      "seckill_action_button": null,
+      "service_bargins": [],
+      "service_refound_policy": {
+        "desc": "支持7天无理由退货",
+        "is_support": true
+      },
+      "service_refound_policy_list": {
+        "list": [{
+          "goods_id": 2192600034,
+          "img_url": "http://i8.mifile.cn/b2c-mimall-media/a32fabc4c2cecf39e88b9b018fb8d6ec.png",
+          "is_support": true,
+          "item_content": "7日内，无人为损坏，包装配件齐全，可以无理由退货。",
+          "item_id": 1,
+          "item_name": "7天无理由退货",
+          "sku": 24553
+        }],
+        "list_new": [{
+          "is_check": true,
+          "is_page_show": true,
+          "title": "小米自营"
+        }, {
+          "desc": "由小米发货",
+          "is_check": true,
+          "is_page_show": true,
+          "title": "小米发货"
+        }, {
+          "is_check": true,
+          "is_page_show": true,
+          "title": "7天无理由退货"
+        }, {
+          "desc": "由小米发货的商品，单笔满150元免运费;\n由第三方商家发货的商品，免运费;\n特殊商品需要单独收取运费，具体以实际结算金额为准；优惠券等不能抵扣运费金额;",
+          "is_check": true,
+          "is_page_show": false,
+          "title": "运费说明"
+        }],
+        "url": ""
+      },
+      "stock_channel": "3"
+    }],
+    "goods_share_datas": {
+      "comments": {},
+      "gallery_view": [{
+        "img_url": "//i8.mifile.cn/v1/a1/51de8206-ffaa-00ed-e52e-9b312f643c7f.webp",
+        "img_url_webp": "//i8.mifile.cn/v1/a1/51de8206-ffaa-00ed-e52e-9b312f643c7f.webp",
+        "type": "img"
+      }],
+      "relate_parts": {
+        "parts": null,
+        "title": ""
+      },
+      "related_data_view": {
+        "data": null,
+        "title": ""
+      }
+    },
+    "goods_tpl_datas": {
+      "header": {},
+      "sections": [{
+        "block_id": "3474065",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_product_gallery",
+        "view_type": "product_info_product_gallery"
+      }, {
+        "block_id": "3474066",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_activity_tip",
+        "view_type": "product_info_activity_tip"
+      }, {
+        "block_id": "3474067",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_product_name",
+        "view_type": "product_info_product_name"
+      }, {
+        "block_id": "3474068",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_product_desc",
+        "view_type": "product_info_product_desc"
+      }, {
+        "block_id": "3474069",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_product_price",
+        "view_type": "product_info_product_price"
+      }, {
+        "block_id": "3474070",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_class_parameters",
+        "view_type": "product_info_class_parameters"
+      }, {
+        "block_id": "3474071",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_benefits",
+        "view_type": "product_info_benefits"
+      }, {
+        "block_id": "3474072",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_choose_version",
+        "view_type": "product_info_choose_version"
+      }, {
+        "block_id": "3474244",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_rank",
+        "view_type": "product_info_rank"
+      }, {
+        "block_id": "3474073",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_comment",
+        "view_type": "product_info_comment"
+      }, {
+        "block_id": "3474074",
+        "body": {
+          "height": "0",
+          "line_height": "60",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "blank_line"
+      }, {
+        "block_id": "3474075",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/1d832a93-adb6-f6c3-ff8e-abd9eca960fd.webp?w=1080\u0026h=302\u0026bg=BAE2E6",
+          "img_url_color": "#BAE2E6",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/1d832a93-adb6-f6c3-ff8e-abd9eca960fd.webp?w=1080\u0026h=302\u0026bg=BAE2E6",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474076",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/1279e2d8-8d57-1a8d-3f71-6344cd46f792.webp?w=1080\u0026h=660\u0026bg=B8D7EB",
+          "img_url_color": "#B8D7EB",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/1279e2d8-8d57-1a8d-3f71-6344cd46f792.webp?w=1080\u0026h=660\u0026bg=B8D7EB",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474077",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/95693d9c-7ea8-9280-f908-43bbde47eff0.webp?w=1080\u0026h=204\u0026bg=F7F7F7",
+          "img_url_color": "#F7F7F7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/95693d9c-7ea8-9280-f908-43bbde47eff0.webp?w=1080\u0026h=204\u0026bg=F7F7F7",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474078",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/2071070e-5aa8-9765-8751-e58651ee2045.webp?w=1080\u0026h=393\u0026bg=B3E0E8",
+          "img_url_color": "#B3E0E8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/2071070e-5aa8-9765-8751-e58651ee2045.webp?w=1080\u0026h=393\u0026bg=B3E0E8",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474079",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/cce11648-0e28-0549-b74c-692692be7319.webp?w=1080\u0026h=321\u0026bg=C0DDEF",
+          "img_url_color": "#C0DDEF",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/cce11648-0e28-0549-b74c-692692be7319.webp?w=1080\u0026h=321\u0026bg=C0DDEF",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474080",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/d0e5f910-cbc8-0d84-bcd3-f2412b960804.webp?w=1080\u0026h=204\u0026bg=F6F7F7",
+          "img_url_color": "#F6F7F7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/d0e5f910-cbc8-0d84-bcd3-f2412b960804.webp?w=1080\u0026h=204\u0026bg=F6F7F7",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474081",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/fbb6b134-5e5f-96e6-d16c-cca1e08432f2.webp?w=1080\u0026h=350\u0026bg=C9DAE8",
+          "img_url_color": "#C9DAE8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/fbb6b134-5e5f-96e6-d16c-cca1e08432f2.webp?w=1080\u0026h=350\u0026bg=C9DAE8",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474082",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/bbece3c8-8063-0c41-2eeb-622d16701d59.webp?w=1080\u0026h=297\u0026bg=ABCDD3",
+          "img_url_color": "#ABCDD3",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/bbece3c8-8063-0c41-2eeb-622d16701d59.webp?w=1080\u0026h=297\u0026bg=ABCDD3",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474083",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/b70baf15-62ad-9fd9-e446-47068d6bda47.webp?w=1080\u0026h=240\u0026bg=F4F6F7",
+          "img_url_color": "#F4F6F7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/b70baf15-62ad-9fd9-e446-47068d6bda47.webp?w=1080\u0026h=240\u0026bg=F4F6F7",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474084",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/3971e8ee-23e3-db7b-040d-0b449cc5e1cc.webp?w=1080\u0026h=387\u0026bg=84B9D2",
+          "img_url_color": "#84B9D2",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/3971e8ee-23e3-db7b-040d-0b449cc5e1cc.webp?w=1080\u0026h=387\u0026bg=84B9D2",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474085",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/5cb05910-6121-0c26-6ca0-0e1717dca8f3.webp?w=1080\u0026h=273\u0026bg=5C8185",
+          "img_url_color": "#5C8185",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/5cb05910-6121-0c26-6ca0-0e1717dca8f3.webp?w=1080\u0026h=273\u0026bg=5C8185",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474086",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/26f7e0a8-aaa2-5487-79de-ac5d12b21e63.webp?w=1080\u0026h=207\u0026bg=F8F8F8",
+          "img_url_color": "#F8F8F8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/26f7e0a8-aaa2-5487-79de-ac5d12b21e63.webp?w=1080\u0026h=207\u0026bg=F8F8F8",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474087",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/ab3e6539-7055-941d-f7c9-bae625b2bcee.webp?w=1080\u0026h=360\u0026bg=B9D4E5",
+          "img_url_color": "#B9D4E5",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/ab3e6539-7055-941d-f7c9-bae625b2bcee.webp?w=1080\u0026h=360\u0026bg=B9D4E5",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474088",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/b5ad5905-66b4-d379-a286-078737be02d1.webp?w=1080\u0026h=313\u0026bg=A5CBE3",
+          "img_url_color": "#A5CBE3",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/b5ad5905-66b4-d379-a286-078737be02d1.webp?w=1080\u0026h=313\u0026bg=A5CBE3",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474089",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/563decb6-186c-5592-3eaa-ca6345424eb6.webp?w=1080\u0026h=228\u0026bg=F4F6F6",
+          "img_url_color": "#F4F6F6",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/563decb6-186c-5592-3eaa-ca6345424eb6.webp?w=1080\u0026h=228\u0026bg=F4F6F6",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474090",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/c0bdc68b-43e6-9973-4e83-157bc71f21b2.webp?w=1080\u0026h=432\u0026bg=ACDBE8",
+          "img_url_color": "#ACDBE8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/c0bdc68b-43e6-9973-4e83-157bc71f21b2.webp?w=1080\u0026h=432\u0026bg=ACDBE8",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474091",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/e20a0c9b-c4a2-780c-ab4d-55a71ae43b65.webp?w=1080\u0026h=267\u0026bg=BCDCF0",
+          "img_url_color": "#BCDCF0",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/e20a0c9b-c4a2-780c-ab4d-55a71ae43b65.webp?w=1080\u0026h=267\u0026bg=BCDCF0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474092",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/631ddc67-5146-0ca5-bf84-83339fdd9418.webp?w=1080\u0026h=216\u0026bg=F7F6F7",
+          "img_url_color": "#F7F6F7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/631ddc67-5146-0ca5-bf84-83339fdd9418.webp?w=1080\u0026h=216\u0026bg=F7F6F7",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474093",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/0650a974-48a7-686c-daa4-d18b0a61049b.webp?w=1080\u0026h=408\u0026bg=BFA5D2",
+          "img_url_color": "#BFA5D2",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/0650a974-48a7-686c-daa4-d18b0a61049b.webp?w=1080\u0026h=408\u0026bg=BFA5D2",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474094",
+        "body": {
+          "height": "0",
+          "img_url": "//i8.mifile.cn/v1/a1/82932a10-78b6-eeb5-df73-5f8e76a89fe9.webp?w=1080\u0026h=285\u0026bg=B1ACD1",
+          "img_url_color": "#B1ACD1",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/82932a10-78b6-eeb5-df73-5f8e76a89fe9.webp?w=1080\u0026h=285\u0026bg=B1ACD1",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474095",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_relate_parts",
+        "view_type": "product_info_relate_parts"
+      }, {
+        "body": {
+          "height": "0",
+          "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fc88fd153c1da1138fd621e00137d3e2.png?w=1080\u0026h=427",
+          "img_url_color": "#FFFFFF",
+          "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fc88fd153c1da1138fd621e00137d3e2.png?w=1080\u0026h=427",
+          "is_show_animation": 2,
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_ino_price_desc",
+        "view_type": "image_w_1080"
+      }, {
+        "block_id": "3474096",
+        "body": {
+          "height": "0",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "stat": "product_info_recommend",
+        "view_type": "product_info_recommend"
+      }, {
+        "block_id": "3474097",
+        "body": {
+          "height": "0",
+          "line_height": "168",
+          "margin_left": 0,
+          "margin_right": 0,
+          "width": "0"
+        },
+        "view_type": "blank_line"
+      }]
+    },
+    "product_info": {
+      "activity_tips": {
+        "action": {},
+        "img_url": ""
+      },
+      "is_batched": false,
+      "is_choose": true,
+      "is_enable": true,
+      "name": "小米CC9e 标准高透贴膜",
+      "page_id": 10440,
+      "price_tips": {},
+      "product_desc": "耐磨性强，防护更出众 / 疏油疏水，有效抗水抗脏污 / 高清透亮，保留了原生屏幕的亮丽颜色和清晰度 / 操作灵敏，智能吸附 / 进口高端PET材质，裸机般手感",
+      "product_gallery_icon": {},
+      "product_id": 10172,
+      "share_content": ""
+    },
+    "related_rank": {
+      "data": null,
+      "title": ""
+    },
+    "related_recommend": {
+      "data": [{
+        "image_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a3593f6ee74115531a529226b64702f9.jpg",
+        "image_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a3593f6ee74115531a529226b64702f9.jpg",
+        "is_multi_price": false,
+        "market_price": "299",
+        "name": "小爱触屏音箱",
+        "price": "249",
+        "product_id": 9334
+      }, {
+        "image_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/477b561ea6b00e77e041ea73c881974e.jpg",
+        "image_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/477b561ea6b00e77e041ea73c881974e.jpg",
+        "is_multi_price": false,
+        "market_price": "1799",
+        "name": "小米CC9 6GB +64GB",
+        "price": "1799",
+        "product_id": 10136
+      }, {
+        "image_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ae2f143b6c34950bddef1469647c640e.jpg",
+        "image_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ae2f143b6c34950bddef1469647c640e.jpg",
+        "is_multi_price": false,
+        "market_price": "2599",
+        "name": "小米CC9 美图定制版",
+        "price": "2599",
+        "product_id": 10140
+      }, {
+        "image_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cc1422f061017fe49a2a9bb0b4e190b0.jpg",
+        "image_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cc1422f061017fe49a2a9bb0b4e190b0.jpg",
+        "is_multi_price": false,
+        "market_price": "1299",
+        "name": "小米CC9e 4GB+64GB",
+        "price": "1299",
+        "product_id": 10161
+      }, {
+        "image_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/02bd18ea5d0c5b0894c8beb6fd62795a.jpg",
+        "image_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/02bd18ea5d0c5b0894c8beb6fd62795a.jpg",
+        "is_multi_price": false,
+        "market_price": "99",
+        "name": "果冻单肩包",
+        "price": "99",
+        "product_id": 10175
+      }],
+      "title": "相关推荐"
+    },
+    "seo": {
+      "description": "耐磨性强，防护更出众 / 疏油疏水，有效抗水抗脏污 / 高清透亮，保留了原生屏幕的亮丽颜色和清晰度 / 操作灵敏，智能吸附 / 进口高端PET材质，裸机般手感",
+      "keywords": "小米CC9e 标准高透贴膜,透明",
+      "title": "小米CC9e 标准高透贴膜"
+    },
+    "server_time": 1562748405
+  },
+  "result": "ok"
+}
