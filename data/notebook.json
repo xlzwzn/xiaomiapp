@@ -95,7 +95,7 @@
             "margin_left": 0,
             "margin_right": 0
           }
-        }, {
+        }, [{
           "view_type": "cells_auto_fill",
           "block_id": "3452100",
           "body": {
@@ -182,7 +182,7 @@
             "margin_left": 0,
             "margin_right": 0
           }
-        },
+        }],
         [],
         [
           [{
