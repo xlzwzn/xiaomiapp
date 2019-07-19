@@ -183,7 +183,8 @@
             "margin_left": 0,
             "margin_right": 0
           }
-        }],
+        }],[
+        ],
         [
           [{
             "view_type": "cells_auto_fill",
@@ -480,8 +481,7 @@
             }, {
 
             }
-          ],
-          [{
+          ], [{
               "view_type": "cells_auto_fill",
               "block_id": "3452116",
               "group_id": "15.6",
