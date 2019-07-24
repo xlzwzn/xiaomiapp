@@ -141,7 +141,9 @@
       "stock_channel": "3"
     }],
     "goods_share_datas": {
-      "comments": {},
+      "comments": {
+        "total": 35
+      },
       "gallery_view": [{
         "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/433a9bab48df9a29e7bfeeccd8e7f8f0.jpg",
         "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/433a9bab48df9a29e7bfeeccd8e7f8f0.jpg",
