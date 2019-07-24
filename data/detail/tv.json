@@ -370,7 +370,9 @@
       "stock_channel": "3"
     }],
     "goods_share_datas": {
-      "comments": {},
+      "comments": {
+        "total": 16
+      },
       "gallery_view": [{
         "img_url": "//i8.mifile.cn/v1/a1/61716907-36b7-6bcc-88df-4fc917973524.webp",
         "img_url_webp": "//i8.mifile.cn/v1/a1/61716907-36b7-6bcc-88df-4fc917973524.webp",
