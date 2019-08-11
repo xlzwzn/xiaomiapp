@@ -20,18 +20,9 @@
       "bg_img": "",
       "bg_img_webp": ""
     }, {
-      "name": "毕业季",
-      "page_type": "activity",
-      "page_id": 10304,
-      "is_default": false,
-      "word_selected_color": "#ed5b00",
-      "word_unselected_color": "#747474",
-      "bg_img": "",
-      "bg_img_webp": ""
-    }, {
       "name": "智能",
       "page_type": "activity",
-      "page_id": 10288,
+      "page_id": 9146,
       "is_default": false,
       "word_selected_color": "#ed5b00",
       "word_unselected_color": "#747474",
@@ -75,7 +66,6 @@
       "bg_img_webp": ""
     }],
     "data": {
-      "header": {},
       "sections": [{
           "view_type": "gallery",
           "body": {
@@ -2232,85 +2222,14 @@
           }]
         ]
       ],
-      "special_navigation_txt": {
-        "view_type": "special_navigation_txt",
-        "block_id": "3469968",
-        "body": {
-          "bg_color": "#ff4a00",
-          "items": [{
-            "title": "热卖爆品",
-            "group_id": "10",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.1",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "新品专区",
-            "group_id": "11",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.2",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "小家电",
-            "group_id": "1",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.3",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "智能穿戴",
-            "group_id": "2",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.4",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "耳机音箱",
-            "group_id": "3",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.5",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "品质灯具",
-            "group_id": "4",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.6",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "生活居家",
-            "group_id": "5",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.7",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "便捷出行",
-            "group_id": "6",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.8",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "个护清洁",
-            "group_id": "7",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.9",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "儿童专区",
-            "group_id": "8",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.10",
-            "margin_left": 0,
-            "margin_right": 0
-          }, {
-            "title": "配件耗材",
-            "group_id": "9",
-            "log_code": "logcode#page=activity\u0026page_id=10288\u0026bid=3469968.11",
-            "margin_left": 0,
-            "margin_right": 0
-          }],
-          "margin_left": 0,
-          "margin_right": 0
-        }
+      "seo": {
+        "title": "小米商城-小米官方网站，小米手机、红米手机正品专卖",
+        "keywords": "小米,小米官网,小米手机,小米官网首页,小米商城",
+        "description": "小米商城直营小米公司旗下所有产品，囊括小米手机、红米手机、智能硬件及小米生活周边，同时提供小米客户服务及售后支持。"
       }
     },
-    "default_type": "activity",
-    "default_id": 10288
+    "default_type": "home",
+    "default_id": 0
   },
   "result": "ok"
 }
