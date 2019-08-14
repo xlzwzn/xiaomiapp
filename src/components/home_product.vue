@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 /* 产品模板 */
 .home_product_content_list{width: 100%; height: auto; overflow: hidden;}
 .home_product_content_list dl,dl.teledlb{width: 49.5%; height: auto; overflow: hidden; margin-top: 1%; float: left;}

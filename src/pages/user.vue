@@ -151,7 +151,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 .header_user{width: 100%; height: auto; background:#f37d0f url(../assets/user/head_bg.png) no-repeat; background-size: 100%;}
 .header_user dl{height: 1rem; padding: 0.3rem 0 0.3rem 0.3rem;}
 .header_user dl dt{width: 1rem; height: 1rem; border-radius: 50%; overflow: hidden; float: left;}

@@ -84,7 +84,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .product{width:100%; height: auto; overflow: hidden;}
 
 .product_content{width:96%; padding: 0 2% 2% 2%;}
