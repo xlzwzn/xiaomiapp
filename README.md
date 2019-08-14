@@ -2,7 +2,7 @@
 
 学习vue.js之后做的一个小项目，有很多不足，忘大家多指教。
 
-使用的技术有vue+vue-cli+vue-router+webpack
+使用的技术有vue+vue-cli+vue-router+vuex+webpack
 
 
 本地运行方式
