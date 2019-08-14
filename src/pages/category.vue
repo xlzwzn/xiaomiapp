@@ -103,7 +103,7 @@ export default {
 .home_product_content_list dl:nth-child(odd),dl.teledlb:nth-child(odd){margin-right: 1%;}
 .home_product_content_list dl dd,dl.teledlb dd{width:100%; height: auto; box-sizing: border-box; padding: 0.2rem 0.25rem; background: #fff;}
 .home_product_content_list dl dd p,dl.teledlb dd p{width:100%; line-height: 1.5; overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
-.home_product_content_list dl dd p.name{font-size:15px; color:#333;}
+.home_product_content_list dl dd p.name{font-size: 0.3rem; color:#333;}
 .home_product_content_list dl dd p.brief{color:#666;}
 .home_product_content_list dl dd p.price{color:#f00;}
 .home_product_content_list dl dd p.price s{color:#666;}
@@ -115,7 +115,7 @@ export default {
 .category_left{width:21%; height: 100%; box-sizing: border-box; border-right: 1px solid #efefef; overflow: hidden; position: relative; margin:0; float:left;}
 .category_left ul{width:100%; flex-direction: column;}
 .category_left ul li{width: 100%; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.26rem;}
-.category_left ul li.cc{font-size:16px; font-weight:bold; color:#f00;}
+.category_left ul li.cc{font-size:0.26rem; font-weight:bold; color:#f00;}
 .category_right{width:79%; height: 100%; overflow: auto; float: right;}
 .cat_main{width:100%; height:auto; box-sizing: border-box; padding: 0 6%; overflow: hidden;}
 .cat_main_banner{width: 100%; height: auto; overflow: hidden;}
