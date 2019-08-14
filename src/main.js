@@ -7,6 +7,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
+// vuex
+import store from './store'
+
 // 导入 vue-resource
 import VueResource from 'vue-resource'
 Vue.use(VueResource)
@@ -17,11 +20,20 @@ Vue.config.productionTip = false
 
 // 导入 pages 下的 Home.vue 
 import Home from './pages/Home'
-import Detail from './pages/Detail'
 import Category from './pages/category'
 import Cart from './pages/cart'
 import User from './pages/user'
 import Entry from './pages/entry'
+import Search from './pages/search'
+
+// 二级导航
+import Set from './pages/set'
+import Detail from './pages/Detail'
+import Address from './pages/address'
+import Checkout from './pages/checkout'
+
+// 三级导航
+import Edit from './pages/edit'
 
 // 导入外部js及css
 import'./scss/swiper.min.css'
@@ -53,19 +65,75 @@ const routes = [
 	},
 	{
 		path: '/user',
-		component: User
+		component: User,
+		beforeEnter: (to, from, next) => {
+			let userId = sessionStorage.getItem("userId")
+			if (userId === null || userId == '') {
+				next('/entry')
+			} else {
+				next()
+			}
+		}
+//		children: [
+//			{
+//				path: '/user/set',
+//				component: Set
+//			}
+//		]
+	},
+	{
+		path: '/user/set',
+		component: Set
+	},
+	{
+		path: '/address',
+		component: Address
+	},
+	{
+		path: '/edit',
+		component: Edit
 	},
 	{
 		path: '/entry',
 		component: Entry
+	},
+	{
+		path: '/search',
+		component: Search
+	},
+	{
+		path: '/checkout',
+		component: Checkout,
+		beforeEnter: (to, from, next) => {
+			let userId = sessionStorage.getItem("userId")
+			if (userId === null || userId == '') {
+				next('/entry')
+			} else {
+				next()
+			}
+		}
 	}
 ]
 
 // 创建路由实例
 const router = new VueRouter({
-	mode: 'history',
+	// mode: 'history',
 	routes
 })
+
+//router.beforeEach((to, from, next) => {
+//	if (to.path === '/entry') {
+//		next();
+//	} else {
+//		let userId = sessionStorage.getItem("userId")
+//		if (userId === null || userId == '') {
+//			next('/entry');
+//			console.log(userId)
+//		} else {
+//			next();
+//		}
+//	}
+//})
 
 // 创建 Vue 实例
 new Vue({
@@ -76,6 +144,7 @@ new Vue({
   	}
   },
   router,
+  store,
   watch: {
   	'$route' (to, from){
   		const toDepth = to.path.substring(0, to.path.length-2).split('/').length
