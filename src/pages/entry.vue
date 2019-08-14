@@ -6,20 +6,18 @@
 			<form>
 				<ul>
 					<li class="underline">
-						<span>+86&gt;</span>
-						<input type="text" value="" placeholder="手机号码" />
+						<input type="text" value="" v-model="loginForm.username" placeholder="账号" />
 					</li>
 					<li class="underline">
-						<input type="text" value="" placeholder="短信验证码" />
-						<router-link to="/user">获取验证码</router-link>
+						<input type="password" value="" v-model="loginForm.password" placeholder="密码" />
 					</li>
 					<li></li>
-					<li><button type="submit">立即登录/注册</button></li>
+					<li class="button" @click="login($event)">立即登录</li>
 					<li class="switch">用户名密码登录</li>
 				</ul>
 			</form>
 		</div>
-		
+
 		<div class="entry_other">
 			<div class="entry_other_tit">
 				<fieldset>
@@ -46,7 +44,78 @@
 </template>
 
 <script>
+import axios from 'axios'
+import {mapState, mapMutations} from 'vuex'
+
 export default{
+	data() {
+		return {
+			loginForm: {
+				username: 'xiaolan',
+				password: '123456'
+			},
+			isLogin: false
+		}
+	},
+	created(){
+		console.log('有两个默认账号 xiaolan 123456 xiaoliang 1598648')
+	},
+	methods: {
+		login: function(event) {
+			let _this = this;
+			var userName = this.loginForm.username.trim();
+			var passWord = this.loginForm.password.trim()
+			if (userName === '' || passWord === '') {
+				alert('账号或密码不能为空')
+			}	else {
+				axios({
+					method: 'get',
+					url: 'https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/user.json',
+					data: _this.loginForm,
+					 // 向服务器发送请求钱，修改请求数据
+					 transformRequest: function(data){
+						 return data
+					 },
+					 // 在传递给 then/catch 前，允许修改响应数据
+//					 transformResponse: function(res) {
+//						 console.log(res.headers)
+//					 }
+				}).then(res => {	// 请求成功
+					console.log(res)
+					for (var i=0; i<res.data.data.length; i++) {
+						if (userName === res.data.data[i].name && passWord === res.data.data[i].password) {
+							sessionStorage.setItem("userId", res.data.data[i].id)
+							alert('登录成功')
+							window.history.back()
+							// this.$router.push('/user')
+							this.isLogin = true
+							return
+						}
+					}
+					if (!this.isLogin){
+						alert('账号或密码错误')
+					}
+//					if (_this.loginForm.username === res.data.data.name && _this.loginForm.password === res.data.data.password) {
+//						sessionStorage.setItem("username", _this.loginForm.username)
+//						sessionStorage.setItem("authoRization", res.data.data.token)
+//						sessionStorage.setItem("img_url", res.data.data.img_url)
+//						this.authoRization(res.data.data.token)
+//						this.userName(_this.loginForm)
+//						alert('登录成功')
+//						this.$router.push('/user')
+//					} else {
+//						alert('账号或密码错误')
+//					}
+			}).catch((error) => { //请求错误
+						console.log(error)
+					})
+			}
+		},
+		...mapMutations({
+			authoRization: 'AUTHO_RIZATION',
+			userName: 'USER_NAME'
+		})
+	},
 	mounted() {
 		ihei()
 	}
@@ -70,7 +139,7 @@ body{background:#fff;}
 .entry_form ul li span,.entry_form ul li a{width: 23%; height: 1rem; line-height: 1rem; font-size: 18px; color: #999; display: block; float: left;}
 .entry_form ul li a{font-size:14px; color:#2ea5e5; white-space: nowrap;}
 .entry_form ul li input{width: 77%; height: 1rem; line-height: 1rem; font-size: 18px; color: #333; border: 0; float: left;}
-.entry_form ul li button{width: 100%; height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 20px; color: #fff; background: #ff5400; border: 0; border-radius: 0.1rem;}
+.entry_form ul li.button{width: 100%; height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 20px; color: #fff; background: #ff5400; border: 0; border-radius: 0.1rem; margin-bottom: 15px;}
 .entry_form ul li.switch{width: 100%; height: 0.8rem; line-height: 0.8rem; box-sizing: border-box; border: 1px solid #ddd; border-radius: 0.1rem; font-size: 20px; color: #333; text-align: center;}
 
 .entry_other{width: 100%; height: auto; margin-top: 1rem;}

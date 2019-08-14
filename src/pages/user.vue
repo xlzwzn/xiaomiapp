@@ -2,10 +2,8 @@
 	<div class="user">
 		<div class="header_user">
 			<dl>
-				<router-link to="/entry">
-					<dt><img src="../assets/user/mrtx.png" /></dt>
-					<dd>登录/注册</dd>
-				</router-link>
+				<dt><img :src=img_url /></dt>
+				<dd>{{ name }}</dd>
 			</dl>
 		</div>
 		<div class="order">
@@ -96,7 +94,7 @@
 			<div class="fgx"></div>
 			<ul>
 				<li class="icon6">
-					<router-link to="/">
+					<router-link to="set" append>
 						<i></i>
 						<div>
 							<p>设置</p>
@@ -106,18 +104,37 @@
 				</li>
 			</ul>
 		</div>
-		
+		<router-view></router-view>
 		<Footer></Footer>
 	</div>
 </template>
 
 <script>
-import Footer from '../components/footer'
+import Footer from 'components/footer'
+import axios from 'axios'
+import { mapGetters } from 'vuex'
 
 export default{
 	data(){
 		return {
-			
+			name: '登录/注册',
+			img_url: '../assets/user/mrtx.png'
+		}
+	},
+	created() {
+		console.log('可进入设置页面')
+		var userId = sessionStorage.getItem("userId")
+		if (userId) {
+			axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/user.json').then((response) => {
+					for (var i=0; i<response.data.data.length; i++) {
+						if (response.data.data[i].id === userId) {
+							this.name = response.data.data[i].name
+							this.img_url = response.data.data[i].img_url
+						}
+					}
+			})
+//			this.name = sessionStorage.getItem("username")
+//			this.img_url = sessionStorage.getItem("img_url")
 		}
 	},
 	components: {
@@ -137,7 +154,7 @@ export default{
 <style>
 .header_user{width: 100%; height: auto; background:#f37d0f url(../assets/user/head_bg.png) no-repeat; background-size: 100%;}
 .header_user dl{height: 1rem; padding: 0.3rem 0 0.3rem 0.3rem;}
-.header_user dl dt{width: 1rem; height: 1rem; float: left;}
+.header_user dl dt{width: 1rem; height: 1rem; border-radius: 50%; overflow: hidden; float: left;}
 .header_user dl dd{height:1rem; line-height: 1rem; font-size: 14px; color: #fff; padding-left: 0.2rem; float: left;}
 .order{width: 100%; height: auto;}
 .order_t{width: 100%; height: 0.8rem; border-bottom: 1px solid #EEEEEE; box-sizing: border-box; padding: 0 5%;}
