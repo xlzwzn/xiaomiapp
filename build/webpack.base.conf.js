@@ -12,23 +12,27 @@ function resolve (dir) {
 }
 
 const createLintingRule = () => ({
-  test: /\.(js|vue)$/,
-  loader: 'eslint-loader',
-  enforce: 'pre',
-  include: [resolve('src'), resolve('test')],
-  options: {
-    formatter: require('eslint-friendly-formatter'),
-    emitWarning: !config.dev.showEslintErrorsInOverlay
-  }
+//test: /\.(js|vue)$/,
+//loader: 'eslint-loader',
+//enforce: 'pre',
+//include: [resolve('src'), resolve('test')],
+//options: {
+//  formatter: require('eslint-friendly-formatter'),
+//  emitWarning: !config.dev.showEslintErrorsInOverlay
+//}
 })
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
+  // 入口
   entry: {
     app: './src/main.js'
   },
+  // 输出
   output: {
+  	// 目标输出目录 path 的绝对路劲
     path: config.build.assetsRoot,
+    // 用于输出文件的文件名
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
@@ -39,9 +43,12 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'components': resolve('src/components'),
+      'api': resolve('src/api')
     }
   },
   module: {
+  	// loader 将非 javascript 语言 转换成 javascript
     rules: [
       ...(config.dev.useEslint ? [] : []),
       {
@@ -92,6 +99,7 @@ module.exports = {
     tls: 'empty',
     child_process: 'empty'
   },
+  // 插件
 	plugins: [
 		new webpack.ProvidePlugin({
 			$: "jquery",
