@@ -280,22 +280,83 @@ export default {
 
 
 <style>
+
+.detail_head{width:100%; height: 8.3rem; position: relative;}
+.detail_head_t{width: 100%; height: 1.02rem; position: absolute; top: 0; box-sizing: border-box; padding: 3%; z-index: 999;}
+.detail_head_t span,.detail_head_t p{width:8%; height: 100%; background-color:#000; opacity: 0.6; border-radius: 50%; display: block;}
+.detail_head_t span{line-height:1; font-size: 0.52rem; color: #fff; text-align: center; float: left;}
+.detail_head_t p{text-align:center; float: right;}
+.detail_head_t p img{width: 80%; margin-top: 10%;}
+
+.detail_time{width: 100%; height: 1rem; background: #f00;}
+.detail_time_l{padding-left: 5%; line-height: 1rem; font-size: 0.4rem; color: #fff; float: left;}
+.detail_time_r{padding-right: 5%; float: right;}
+.detail_time_r p{line-height: 1.5; font-size: 0.32rem; color: #fff;}
+.detail_time_r div{line-height: 1.5; font-size: 0.32rem; color: #fff;}
+
+.detail_info{width:100%; height: auto; box-sizing: border-box; padding: 3%;}
+.detail_info_name{width:100%; height: auto; line-height: 1.2; font-size: 0.4rem;}
+.detail_info_brief{width:100%; line-height:1.5; font-size: 0.24rem; color: #666;}
+.detail_info_price{width:100%; height: 0.8rem; line-height: 0.8rem; font-size: 0.48rem; font-weight: bold; color: #f00;}
+
+.detail_config{width:100%; height: auto; overflow: hidden; font-size: 0.24rem; box-sizing: border-box; padding: 0 5%;}
+.detail_config_pz{width: 100%; height: 0.7rem; border-bottom: 1px solid #f1f1f1;}
+.detail_config_pz_l{width:10%; height: 0.7rem; line-height: 0.7rem; color:#999; float: left;}
+.detail_config_pz_r{width:90%; height: 0.7rem; line-height: 0.7rem; float: right;}
+.detail_config_sm{width: 100%; height: 0.7rem; line-height: 0.7rem; color: #666;}
+.detail_config_sm span{height:0.7rem; line-height: 0.7rem; background: url(../assets/details/icon_gou.png) no-repeat; background-size: 0.2rem; background-position: 0 center; padding-left: 0.24rem; margin-right: 0.2rem;}
+
 .detail_button{width: 100%; max-width: 640px; height: 1rem; position: fixed; bottom: 0; z-index: 999;}
 .detail_button dl{width: 100%; height: 1rem; background: #fff;}
 .detail_button dl dd{width: 40%; padding-top: 0.2rem; float: left;}
 .detail_button dl dd a{width: 50%; height: 1rem; text-align: center; display:block; float: left;}
 .detail_button dl dd a img{width: 28%;}
 .detail_button dl dd a p{line-height:1.5; color:#333;}
-.detail_button dl dt{width: 60%; height: 1rem; line-height: 1rem; text-align: center; font-size: 14px; color: #fff; background: #f00; float: right;}
+.detail_button dl dt{width: 60%; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.28rem; color: #fff; background: #f00; float: right;}
 .detail_button dl dt a{color:#fff;}
 
 .gotop{width: 0.8rem; height: 0.8rem; position: fixed; right: 5%; bottom: 10%; z-index: 9999; display: none;}
 
-.gwc_alert{width: 150px; height: 100px; border-radius: 10px; overflow: hidden; position: fixed; top: 50%; left: 50%; margin: -50px 0 0 -75px; z-index: 999; display: none;}
+.gwc_alert{width: 150px; height: 100px; border-radius: 0.2rem; overflow: hidden; position: fixed; top: 50%; left: 50%; margin: -50px 0 0 -75px; z-index: 999; display: none;}
 .gwc_alert .gwc_alert_content, .gwc_alert>i{width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 100;}
 .gwc_alert>i{ background: #000000; opacity: 0.5; z-index: 1;}
 .gwc_alert .gwc_alert_content i{width: 35px; height: 35px; background: url(../assets/img/icon_hook.png) no-repeat; background-size: 100%; position: absolute; left: 60px; top: 15px;}
-.gwc_alert .gwc_alert_content p{width: 100%; line-height: 1.5; text-align: center; font-size: 16px; color: #fff; position: absolute; bottom: 15px;}
+.gwc_alert .gwc_alert_content p{width: 100%; line-height: 1.5; text-align: center; font-size: 0.32rem; color: #fff; position: absolute; bottom: 15px;}
+
+
+.join_shopcart{width:100%; max-width: 640px; height: 100%; position: fixed; bottom: -100%; z-index: 99999;}
+.join_shopcartC{width: 100%; height: 75%; position: absolute; left: 0; bottom: 0; background: #fff; z-index: 100;}
+.join_shopcartI{width: 100%; height: 100%; position: absolute; left: 0; bottom: 0; background: #000; opacity: 0.4; z-index: 99;}
+.join_shopcart_content{width: 100%; height: 90%; box-sizing: border-box; padding: 5%;}
+.join_shopcart_content_close{width:0.3rem; height: 0.3rem; line-height: 0.3rem; text-align:center; font-size: 0.36rem; color: #666; position: absolute; top: 3%; right: 5%;}
+.join_shopcart_content_main{width:100%; height: 1.5rem; display: flex;}
+.join_shopcart_content_main_img{width:1.5rem; height: 1.5rem; border: 1px solid #ccc; flex: 0 0 1.5rem;}
+.join_shopcart_content_main_par{box-sizing:border-box; padding: 3% 0 0 5%; flex: 1 1 0;}
+.join_shopcart_content_main_par span{color:#f00; font-size: 0.48rem; font-weight: 700;}
+.join_shopcart_content_main_par p{line-height: 1.5; font-size: 0.28rem;}
+.detail_config_pop_bb{width: 100%; height: auto;}
+.join_shopcart_content dt{width: 100%; height: 0.5rem; line-height: 0.5rem; padding: 0.2rem 0; font-size: 0.32rem; color: #666;}
+.detail_config_pop_bb dd{width: 100%; height: 0.8rem; line-height: 0.8rem; box-sizing: border-box; padding: 0 5%; border: 1px solid #f1f1f1; margin-bottom: 0.1rem; position: relative;}
+.detail_config_pop_bb dd:first-child{border-color: #f00;}
+/*.detail_config_pop_bb dd input{width: 0; height: 0;}
+.detail_config_pop_bb dd label.sizel{float:left;}
+.detail_config_pop_bb dd label.sizer{float:right;}
+.detail_config_pop_bb dd p{float:left;}
+.detail_config_pop_bb dd span{float: right;}*/
+
+.join_shopcart_par{width: 100%; height: auto;}
+.join_shopcart_par h4{width: 100%; height: 0.5rem; line-height: 0.5rem; padding: 0.2rem 0; font-size: 0.32rem; font-weight: normal; color: #666;}
+.join_shopcart_par ul li{box-sizing: border-box; padding: 3% 5%; margin-right: 5%; border: 1px solid #f1f1f1; border-radius: 5%; display: inline-block; position: relative;}
+.join_shopcart_par ul li.cc{border-color: #f00;}
+
+.detail_config_pop_ys dd{width: 100%; height: 0.8rem;}
+.detail_config_pop_ys dd input{width:0; height: 0;}
+.detail_config_pop_ys dd label{width: 23%; height: 0.8rem; line-height:0.8rem; text-align: center; font-size: 0.28rem; box-sizing: border-box; border: 1px solid #f1f1f1; color: #333; margin-left: 2%; float: left;}
+
+
+.join_shopcartS{width: 100%; height: 10%; line-height: 2.5; text-align: center; font-size: 20px; color: #fff; background: #f00;}
+
+
 </style>
 
 

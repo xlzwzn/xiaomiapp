@@ -232,12 +232,12 @@ export default{
 .carts ul li .item_img{width: 1.8rem; height: 1.8rem; box-sizing: border-box; border: 1px solid #ccc; margin-right: 0.2rem; display: inline-block; flex: 0 0 1.8rem;}
 .carts ul li .item_img img{width: auto; height: 100%;}
 .carts ul li .info{height: 1.8rem; position: relative; flex: 1;}
-.carts ul li .info .item_name{line-height: 1.2; font-size: 16px; color: #666; margin-right: 0.3rem;}
-.carts ul li .info .item_price{line-height: 1.5; font-size: 12px; color: #999; margin-bottom: 2px;}
+.carts ul li .info .item_name{line-height: 1.2; font-size: 0.32rem; color: #666; margin-right: 0.3rem;}
+.carts ul li .info .item_price{line-height: 1.5; font-size: 0.24rem;; color: #999; margin-bottom: 2px;}
 .carts ul li .info .num{width: 100%; height: 0.6rem; position: absolute; left: 0; bottom: 0;}
 .carts ul li .info .num .input_number{height: 0.6rem; border: 1px solid #eee; float: left;}
 .carts ul li .info .num .input_number>div{width: 0.6rem; height: 0.6rem; display: inline-block; float: left;}
-.carts ul li .info .num .input_number .input_num{text-align: center; line-height: 0.6rem; font-size: 16px; color: #3c3c3c;}
+.carts ul li .info .num .input_number .input_num{text-align: center; line-height: 0.6rem; font-size: 0.32rem; color: #3c3c3c;}
 .carts ul li .info .num .input_number .input_sub,.carts ul li .info .num .input_number .input_add{background-color: #f4f4f4;}
 .carts ul li .info .num .input_number .input_sub i,.carts ul li .info .num .input_number .input_add i{width: 0.6rem; height: 0.6rem; background-repeat: no-repeat; background-position: center; background-size:  0.3rem; display: inline-block;}
 .carts ul li .info .num .input_number .input_sub i{background-image: url(../assets/img/input_reduce.png);}
@@ -247,12 +247,12 @@ export default{
 .carts ul li .info .num .delete i{width: 100%; height: 100%; background: url(../assets/img/delete.png) no-repeat center; background-size: 100%; display: inline-block;}
 
 /* 悬浮结算 */
-.cart_submit{text-align: center; position: fixed; left: 0; bottom: 0; right: 0; z-index: 1000; background: #fff; box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);}
+.cart_submit{width: 100%; max-width: 640px; text-align: center; position: fixed; bottom: 0; z-index: 1000; background: #fff; box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);}
 .cart_submit .box-flex{display: flex;}
 .cart_submit .box-flex .flex{flex: 1 1 auto; box-sizing: inherit;}
-.cart_submit .box-flex .price-box{width: 100%; font-size: 14px; color: #999; text-align: center; padding-top: 5px;}
-.cart_submit .box-flex .price-box strong{font-size: 20px; color: #FF6700;}
+.cart_submit .box-flex .price-box{width: 100%; font-size: 0.28rem; color: #999; text-align: center; padding-top: 5px;}
+.cart_submit .box-flex .price-box strong{font-size: 0.4rem; color: #FF6700;}
 .cart_submit .box-flex .disable{background: #f4f4f4; color: #000; border: 1px solid #f4f4f4;}
-.cart_submit .box-flex .btn{width: 100%; height: 1rem; line-height: 1rem; font-size: 16px; display: block;}
+.cart_submit .box-flex .btn{width: 100%; height: 1rem; line-height: 1rem; font-size: 0.32rem; display: block;}
 .cart_submit .box-flex .settlement{background: #ff6700; color: #fff;}
 </style>

@@ -261,7 +261,7 @@ export default {
 .searchUl ul li{width: 100%; line-height: 0.95rem; text-indent: 1em; font-size: 0.3rem; color: #000; border-bottom: 1px solid #ddd;}
 .searchUl ul li:last-child{border: 0;}
 
-.searchInitial{position: fixed; top: 0.8rem; left: 0; right: 0; bottom: 0; background: #fff; overflow: scroll;}
+.searchInitial{width: 100%; max-width: 640px; position: fixed; top: 0.8rem; bottom: 0; background: #fff; overflow: scroll;}
 .promotion-title{line-height: .8rem; padding: 0 .3rem; font-size: .24rem; text-align: left;}
 .search-key{margin: .1rem .2rem; text-align: left;}
 .search-key span{display: inline-block; padding: .14rem .2rem; margin: .1rem; border: 1px solid #e4e4e4; background: hsla(12,99%,71%,.05); font-size: .24rem; color: #484848;}

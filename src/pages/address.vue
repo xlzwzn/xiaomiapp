@@ -113,9 +113,9 @@ export default{
 </script>
 
 <style scoped>
-.add{width: 100%; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.3rem; color: #fff; background: #ff6700; position: fixed; left: 0; bottom: 0;}
+.add{width: 100%; max-width: 640px; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.3rem; color: #fff; background: #ff6700; position: fixed; bottom: 0;}
 
-.view_wrap{position: fixed; top: 1rem; left: 0; right: 0; bottom: 1rem; background: #fff; overflow: scroll;}
+.view_wrap{width: 100%; max-width: 640px; position: fixed; top: 1rem; bottom: 1rem; background: #fff; overflow: scroll;}
 .ui_card{margin: 0.2rem; border: 1px solid #F6F6F6;}
 .ui_card ul{padding: 0 0.2rem;}
 .ui_card ul li{padding: 0.2rem 0.3rem;}

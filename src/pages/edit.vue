@@ -240,8 +240,8 @@ export default{
 
 <style scoped>
 .geoinfo{font-size: 0.24rem; display: none;}
-.geoinfo_bcg{position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.8); z-index: 100;}
-.geoinfo_con{position: fixed; top: auto; left: 0; right: 0; bottom: 0; background: #fff; z-index: 101;}
+.geoinfo_bcg{width: 100%; max-width: 640px; position: fixed; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.8); z-index: 100;}
+.geoinfo_con{width: 100%; max-width: 640px; position: fixed; top: auto; bottom: 0; background: #fff; z-index: 101;}
 .geoinfo_tit{width: 100%; height: 1rem; font-size: 0.3rem; text-align: center; position: relative;}
 .geoinfo_tit p{width:100%; line-height: 1rem; position: absolute; left: 0; top: 0;}
 .geoinfo_tit span{width: 1rem; height: 1rem; line-height: 1rem; position: absolute; top: 0; right: 0;}
@@ -253,7 +253,7 @@ export default{
 .geoinfo_list ul{padding: 0.1rem 0.2rem;}
 .geoinfo_list ul li{padding: 0.1rem 0.15rem; display: block;}
 
-.add{width: 100%; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.3rem; color: #fff; background: #ff6700; position: fixed; left: 0; bottom: 0;}
+.add{width: 100%; max-width: 640px; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.3rem; color: #fff; background: #ff6700; position: fixed; bottom: 0;}
 
 .address_manager{padding-top: 1rem;}
 .address_manager ul{}

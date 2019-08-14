@@ -155,11 +155,11 @@ export default{
 .header_user{width: 100%; height: auto; background:#f37d0f url(../assets/user/head_bg.png) no-repeat; background-size: 100%;}
 .header_user dl{height: 1rem; padding: 0.3rem 0 0.3rem 0.3rem;}
 .header_user dl dt{width: 1rem; height: 1rem; border-radius: 50%; overflow: hidden; float: left;}
-.header_user dl dd{height:1rem; line-height: 1rem; font-size: 14px; color: #fff; padding-left: 0.2rem; float: left;}
+.header_user dl dd{height:1rem; line-height: 1rem; font-size: 0.28rem; color: #fff; padding-left: 0.2rem; float: left;}
 .order{width: 100%; height: auto;}
 .order_t{width: 100%; height: 0.8rem; border-bottom: 1px solid #EEEEEE; box-sizing: border-box; padding: 0 5%;}
-.order_t p{height: 0.8rem; line-height: 0.8rem; font-size: 14px; float: left;}
-.order_t a{height: 0.8rem; line-height: 0.8rem; font-size: 14px; color: #333; display: block; float: right;}
+.order_t p{height: 0.8rem; line-height: 0.8rem; font-size: 0.28rem; float: left;}
+.order_t a{height: 0.8rem; line-height: 0.8rem; font-size: 0.28rem; color: #333; display: block; float: right;}
 .order_b{width:100%; height: 1.6rem; box-sizing: border-box; padding: 0 5%;}
 .order_b ul{width: 100%; height: 1.6rem; box-sizing: border-box; padding-top: 0.3rem;}
 .order_b ul li{width:33.333333333%; height: 1.6rem; float: left;}
@@ -167,7 +167,7 @@ export default{
 .order_b ul li:first-child i{background: url(../assets/user/icon_order1.png) no-repeat center;  background-size: 30%;}
 .order_b ul li:nth-child(2) i{background: url(../assets/user/icon_order2.png) no-repeat center;  background-size: 30%;}
 .order_b ul li:last-child i{background: url(../assets/user/icon_order3.png) no-repeat center;  background-size: 30%;}
-.order_b ul li p{width: 100%; line-height: 2; font-size: 12px; color: #333; text-align: center;}
+.order_b ul li p{width: 100%; line-height: 2; font-size: 0.24rem; color: #333; text-align: center;}
 
 .user_b{width:100%; height: auto;}
 .user_b ul{width: 100%; height: auto; overflow: hidden;}
@@ -182,6 +182,6 @@ export default{
 .user_b ul li.icon6 a i{background: url(../assets/user/icon_userb6.png) no-repeat left center; background-size: 60%;}
 .user_b ul li a div{width: 88%; height: 1rem; border-bottom: 1px solid #ddd; box-sizing: border-box; padding-right: 5%; float: right;}
 .user_b ul li:last-child a div{border-bottom: 0;}
-.user_b ul li a div p{height: 1rem; line-height: 1rem; font-size: 14px; color: #333; float: left;}
-.user_b ul li a div span{height: 1rem; line-height: 1rem; font-size: 18px; float: right;}
+.user_b ul li a div p{height: 1rem; line-height: 1rem; font-size: 0.28rem; color: #333; float: left;}
+.user_b ul li a div span{height: 1rem; line-height: 1rem; font-size: 0.32rem; float: right;}
 </style>

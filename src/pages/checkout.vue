@@ -261,7 +261,7 @@ export default{
 .price{padding: 0.26rem 0.4rem;}
 .price p{line-height: 2em;}
 
-.flex{position: fixed; left: 0; right: 0; bottom: 0;}
+.flex{width: 100%; max-width: 640px; position: fixed; bottom: 0;}
 .info_tips{padding: 0.12rem 0.2rem; background: #fbf3c4;}
 .info_tips p{line-height: 0.3rem; color: #b57842;}
 .ui_flex{text-align: center; display: flex;}
