@@ -9,16 +9,6 @@
 			</div>
 			<div class="swiper-container header_b">
 				<ul class="swiper-wrapper">
-					<!--<li class="swiper-slide cc">推荐</li>
-					<li class="swiper-slide">手机</li>
-					<li class="swiper-slide">智能</li>
-					<li class="swiper-slide">电视</li>
-					<li class="swiper-slide">电脑</li>
-					<li class="swiper-slide">暑期大促</li>
-					<li class="swiper-slide">双摄</li>
-					<li class="swiper-slide">全名屏</li>
-					<li class="swiper-slide">生活周边</li>
-					<li class="swiper-slide">盒子</li>-->
 					<li class="swiper-slide" v-for="img in inav">{{img}}</li>
 				</ul>
 			</div>

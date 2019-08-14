@@ -31,7 +31,7 @@ export default {
 	},
 	created() {
 		console.log('猜你喜欢只有前6个点击进去内容是正确的，其余为上6个随机一个内容')
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/recommendBlank.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/recommendBlank.json').then((response) => {
 			response = response.data
 			if (response.code === 0) {
 				this.recommendArray = response.data

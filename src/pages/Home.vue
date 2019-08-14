@@ -133,7 +133,7 @@ export default {
 			this.navId = index
 			this.homeJson = homeJsonFun(index)
 			// 初始化导航数据
-			axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/home.json').then((response) => {
+			axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/home.json').then((response) => {
 				response = response.data
 				if (response.code === ERR_OK) {
 					this.home_nav = response.data

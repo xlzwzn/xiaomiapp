@@ -139,7 +139,7 @@ export default {
 	},
 	created() {
 		this.biography_fun()
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/detail/' + this.biography + '.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/detail/' + this.biography + '.json').then((response) => {
 			response = response.data
 			if(response.code === 0) {
 				this.detail = response.data

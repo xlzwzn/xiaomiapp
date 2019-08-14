@@ -192,7 +192,7 @@ export default{
 				obj[itemobj] = (obj[itemobj] + 1) || 1
 			}
 			for (var index in obj) {
-				axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/detail/' + index + '.json').then((response) => {
+				axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/detail/' + index + '.json').then((response) => {
 					response = response.data
 					if(response.code === 0) {
 						this.temporary = {

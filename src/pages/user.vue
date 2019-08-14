@@ -125,7 +125,7 @@ export default{
 		console.log('可进入设置页面')
 		var userId = sessionStorage.getItem("userId")
 		if (userId) {
-			axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/user.json').then((response) => {
+			axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/user.json').then((response) => {
 					for (var i=0; i<response.data.data.length; i++) {
 						if (response.data.data[i].id === userId) {
 							this.name = response.data.data[i].name

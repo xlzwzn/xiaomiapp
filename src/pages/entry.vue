@@ -70,7 +70,7 @@ export default{
 			}	else {
 				axios({
 					method: 'get',
-					url: 'https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/user.json',
+					url: 'https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/user.json',
 					data: _this.loginForm,
 					 // 向服务器发送请求钱，修改请求数据
 					 transformRequest: function(data){

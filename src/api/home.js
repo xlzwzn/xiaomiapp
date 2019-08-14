@@ -8,7 +8,7 @@ var ERR_OK = 0
 export function homeJsonFun(index) {
 	var homeJsonName = ['home', 'phone', 'intelligence', 'tv', 'notebook', 'household', 'periphery']
 	var ihome = []
-	axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/' + homeJsonName[index] + '.json').then((response) => {
+	axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/' + homeJsonName[index] + '.json').then((response) => {
 		response = response.data
 		if (response.code === ERR_OK) {
 			ihome.push(response.data.data.sections)
@@ -21,7 +21,7 @@ export function homeJsonFun(index) {
 export function homejson(menu, parameter) {
 	let inaa = []
 	menu.forEach(function(item, index) {
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/' + item + '.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/' + item + '.json').then((response) => {
 			response = response.data
 			if (response.code === ERR_OK) {
 				inaa[index] = {
@@ -41,7 +41,7 @@ export function homejson(menu, parameter) {
 export function searchDataFun(menu) {
 	let inav = []
 	menu.forEach(function(item, index) {
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/detail/' + item + '.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/detail/' + item + '.json').then((response) => {
 			response = response.data
 			if (response.code === ERR_OK) {
 				inav[index] = {
@@ -59,7 +59,7 @@ export function searchDataFun(menu) {
 		})
 	})
 //	for (var i=0; i<menu.length-1; i++) {
-//		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/detail/' + menu[i] + '.json').then((response) => {
+//		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/detail/' + menu[i] + '.json').then((response) => {
 //			response = response.data
 //			if (response.code === ERR_OK) {
 //				inav[i] = {
@@ -82,7 +82,7 @@ export function searchDataFun(menu) {
 //	let inaa = []
 //	console.log(menu.length)
 //	for (var j=0; j<menu.length-1; j++) {
-//		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/' + menu[j] + '.json').then((response) => {
+//		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/' + menu[j] + '.json').then((response) => {
 //			response = response.data
 //			if (response.code === ERR_OK) {
 //				console.log(j)

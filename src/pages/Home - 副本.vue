@@ -68,7 +68,7 @@ export default {
 		document.documentElement.scrollTop = 0
 		// 返回顶部
 		this.home = homejson(['home', 'phone', 'intelligence', 'tv', 'notebook', 'household', 'periphery'], ['home_product', 'other_product', 'three_intellect', 'other_product', 'other_product', 'product_household', 'product_household'])
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/home.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/home.json').then((response) => {
 			response = response.data
 			if (response.code === ERR_OK) {
 				this.home_nav = response.data

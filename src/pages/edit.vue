@@ -98,7 +98,7 @@ export default{
 	},
 	methods: {
 		axiosFun: function() {
-			axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/geoinfo-all.json').then((response) => {
+			axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/geoinfo-all.json').then((response) => {
 				if(response.status == '200') {
 					this.geoinfo = response.data
 					this.geoinfofuben = response.data

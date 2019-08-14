@@ -111,7 +111,7 @@ export default {
 		}
 	},
 	created() {
-		axios('https://raw.githubusercontent.com/xlzwzn/xiaomiapp/master/data/se_default.json').then((response) => {
+		axios('https://raw.githubusercontent.com/xlzwzn/xiaomi/master/data/se_default.json').then((response) => {
 			response = response.data
 			if (response.code === 0) {
 				this.search = response.data
