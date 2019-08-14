@@ -1,0 +1,19 @@
+{
+		"books": [
+			{ 
+				"src": "http://www.tzzy120.com/xiaomiapp/img/sy_nav1.jpg"
+			},
+			{ 
+				"src": "http://www.tzzy120.com/xiaomiapp/img/sy_nav2.jpg"
+			},
+			{ 
+				"src": "http://www.tzzy120.com/xiaomiapp/img/sy_nav3.jpg"
+			},
+			{ 
+				"src": "http://www.tzzy120.com/xiaomiapp/img/sy_nav4.jpg"
+			},
+			{ 
+				"src": "http://www.tzzy120.com/xiaomiapp/img/sy_nav5.jpg"
+			}
+		]
+}
